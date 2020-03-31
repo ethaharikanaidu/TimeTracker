@@ -1,0 +1,27 @@
+
+
+Version:	3.12
+CmdLine:	E:\Document\NetBeansProjects\AppMonitor\AppMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	E:\Document\NetBeansProjects\AppMonitor\.
+Java min ver:	1.006.000
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_241\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_241
+Check launcher:	C:\Program Files\Java\jre1.8.0_241\bin\javaw.exe (OK)
+Match:		1.008.000_241
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_51
+Ignore:		1.008.000_051
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_241 (64-bit)
+Launcher:	C:\Program Files\Java\jre1.8.0_241\bin\javaw.exe
+Launcher args:	-jar "E:\Document\NetBeansProjects\AppMonitor\AppMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0

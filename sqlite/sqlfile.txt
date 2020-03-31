@@ -1,0 +1,54 @@
+sqlite3 appmonitor.db
+
+create table project(
+projectId INTEGER primary key autoincrement,
+projectName varchar(100),
+projectTime int,
+projectDate date
+);
+
+create table app(
+appId INTEGER primary key autoincrement,
+appTime int,
+appDate date
+);
+
+create table mouse(
+mouseId INTEGER primary key,
+clickCount int,
+clickDate date
+);
+
+insert into app (appTime,appDate) values (0,'2020-03-13');
+
+insert into mouse values 
+(0,0,'2020-01-01'),
+(1,0,'2020-01-01'),
+(2,0,'2020-01-01'),
+(3,0,'2020-01-01'),
+(4,0,'2020-01-01'),
+(5,0,'2020-01-01'),
+(6,0,'2020-01-01'),
+(7,0,'2020-01-01'),
+(8,0,'2020-01-01'),
+(9,0,'2020-01-01'),
+(10,0,'2020-01-01'),
+(11,0,'2020-01-01'),
+(12,0,'2020-01-01'),
+(13,0,'2020-01-01'),
+(14,0,'2020-01-01'),
+(15,0,'2020-01-01'),
+(16,0,'2020-01-01'),
+(17,0,'2020-01-01'),
+(18,0,'2020-01-01'),
+(19,0,'2020-01-01'),
+(20,0,'2020-01-01'),
+(21,0,'2020-01-01'),
+(22,0,'2020-01-01'),
+(23,0,'2020-01-01');
+
+select * from project;
+
+INSERT INTO project (projectName,projectTime) values ('ab',25);
+
+update project set projectTime=5 where projectId=
